@@ -1,8 +1,8 @@
 # kickstarter-analysis
-###Project Overview
+### Project Overview
 The goal of this project is to analyze the results (success vs failure) of kickstarter campaigns in the "Theater" production category. The data set contains roughly 8 years of kickstarter campaign data. The primary factors (independent variables) that analyzed are "Launch Date", specifically the month of the year during which a campaign was launched (irrespective of year), and "Goals" which were financial targets to be met; these two variables were compared and analyzed with the target (dependent variable): whether the campaign resulted in a Success (met fundraising goal) or Failure (did not meet fundraising goal).
 
-###Analysis and Challenges
+### Analysis and Challenges
 In order to analyze the covariance / trends in data between launch dates, goals and kickstarter campaign outcomes, I created two separate sets of Pivots and Charts. 
 
 The first PivotChart formed a table with data aggregated on Months; I utilized a line chart to examine the monthly trends over time and the campaign outcomes, which can be seen ![here](https://raw.githubusercontent.com/Dreski9000/kickstarter-analysis/main/Theater_Outcomes_vs_Launch.png)
@@ -11,7 +11,7 @@ The second PivotChart examines the campaign results based on different goal brac
 
 Some challenges are potential confounding variables that are outlined below, mainly not having access to campaign creator data.
 
-###Analysis Results
+### Analysis Results
 
 The following can be concluded about the relationship / potential affect that a launch date (Month) may have on whether the campaign is successful or not:
   1. The number of successful campaigns appears to increase significantly from April to May, and peak in May, and begins to decline steadily until the end of the year. In short, summer seems to be the season that has a higher (on average) number of successful campaigns. 
